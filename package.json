@@ -1,0 +1,25 @@
+{
+  "name": "secure-cache",
+  "version": "1.0.0",
+  "description": "A library of cache based on memory-cache that supports Node.js.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmoyDreamer/secure-cache.git"
+  },
+  "keywords": [
+    "secure-cache"
+  ],
+  "author": "Allen Liu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AmoyDreamer/secure-cache/issues"
+  },
+  "homepage": "https://github.com/AmoyDreamer/secure-cache#readme",
+  "dependencies": {
+    "memory-cache": "^0.2.0"
+  }
+}
