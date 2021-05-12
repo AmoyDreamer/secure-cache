@@ -20,6 +20,7 @@ cache.remove('test')//remove cache data of key 'test'
 ### get cache data from memory
 cache.get(key)
 - key => {String} cache key.(required)
+- return value => {Ant} cache data
 
 ### set cache data to memory
 cache.set(key, value, time)
@@ -30,6 +31,7 @@ cache.set(key, value, time)
 ### remove cache data from memory
 cache.remove(key)
 - key => {String} cache key.(required)
+- return value => {Boolean} whether the cache was removed successfully
 
 ### clear all cache data from memory
 cache.clear()
